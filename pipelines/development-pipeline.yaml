@@ -18,7 +18,7 @@ spec:
   source:
     type: git
     git:
-      uri: https://github.com/wanderboessenkool/cicd-demo.git
+      uri: https://github.com/tomwis97/cicd-demo.git
   strategy:
     jenkinsPipelineStrategy:
       jenkinsfilePath: pipelines/Jenkinsfile

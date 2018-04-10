@@ -1,5 +1,5 @@
-def devTemplate = 'https://raw.githubusercontent.com/wanderboessenkool/cicd-demo/master/templates/httpd-dev.json'
-def testTemplate = 'https://raw.githubusercontent.com/wanderboessenkool/cicd-demo/master/templates/httpd-test.json'
+def devTemplate = 'https://raw.githubusercontent.com/tomwis97/cicd-demo/master/templates/httpd-dev.json'
+def testTemplate = 'https://raw.githubusercontent.com/tomwis97/cicd-demo/master/templates/httpd-test.json'
 
 
 pipeline {
