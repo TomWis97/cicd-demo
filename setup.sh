@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -xe
+oc import-image httpd --all -n openshift
 oc new-project cicd-demo
 oc new-app jenkins-persistent
 oc new-project testing
